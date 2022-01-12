@@ -1,0 +1,7 @@
+Open for Extension, Closed for Modification.
+
+Classes should be open for extension but closed for modification. In doing so, we stop ourselves from modifying existing code and causing potential new bugs in an otherwise happy application.
+
+Of course, the one exception to the rule is when fixing bugs in existing code.
+
+If the class A is written by the developer AA, and if the developer BB wants some modification on that then developer BB should be easily do that by extending class A, but not by modifying class A.
